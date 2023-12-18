@@ -6,7 +6,7 @@ echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.in
 sudo apt update
 sudo apt install -y librealsense2-dkms librealsense2-utils librealsense2-dev librealsense2-dbg
 
-# Setup Docker Package
+# Setup ROS Package
 cd ~/catkin_ws/src/
 git clone https://github.com/IntelRealSense/realsense-ros.git
 cd realsense-ros/
